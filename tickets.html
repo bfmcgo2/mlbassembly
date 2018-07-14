@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MLB ASSEMBLY</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.bam-forms.com/2.0.0/mlb/mlb/0001529068987871-e87254cffff94f8-0001/live/form.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/signup.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script>
+		var team='mlb';
+		var noLinks='false';
+		function writeMLBHeader(){document.write('<div id="mlbHeader"><iframe src="https://www.mlb.com/'+team+'/third-party-header/'+'?no_links='+noLinks +'" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" style="width:100%; height:56px; overflow:hidden; border:0px;"></iframe></div>');}
+		function writeMLBFooter(){document.write('<div id="mlbFooter"><iframe src="https://www.mlb.com/'+team+'/third-party-footer/'+'?no_links='+noLinks +'" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" style="width:100%; height:100px; overflow:hidden; border:0px;"></iframe></div>');}
+	</script>
+</head>
+
+	<body>
+		<script type="text/javascript">writeMLBHeader();</script>
+		<div class="tickets">
+			
+			<div class="tickets-container">
+				<div id="nav" class="container-fluid tickets-nav">
+					<div class="text-center">
+						<img src="assets/logo-horizontal.png" style="margin:20px;" width="200px" height="auto">
+					</div>
+				</div>
+
+				<div class="tickets-copy col-8">
+					<h2 class="bold">Tickets will be availble on <br> july 1 at 10:00 est</h2>
+					
+
+					<h3 class="light">Check back for availability and <br>full program schedule</h3>
+
+					<h6 class="light">Be one of the first to get access for a chance <br> to win tickets &amp; exclusive merchandise</h6>
+
+					<div class="form-field">
+						<!-- <input type="text" class="input" placeholder="ENTER EMAIL"> -->
+						<button class="submit" type="button" data-toggle="modal" data-target="#exampleModalLong">GET ACCESS</button>	
+					</div>
+					
+
+					
+
+
+					<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+					    	<div class="modal-content">
+					    		<div class="modal-header">
+					    			<h5 class="modal-title bold" id="exampleModalLongTitle">Register</h5>
+					    			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					    				<span aria-hidden="true">&times;</span>
+					    			</button>
+					    		</div>
+				    		<div class="modal-body">
+								<bam-form></bam-form>
+							</div>
+					    	</div>
+						</div>
+					</div>
+					
+				</div>
+
+				
+
+				<a href="./" class="back-button">
+					<div class="back-arrow"></div>
+					<p>Back To Site</p>
+				</a>
+			</div>
+
+		</div>
+		
+
+
+
+		       
+		<script type="text/javascript">writeMLBFooter();</script>
+	  <script src="js/jquery.min.js" type="text/javascript"></script>
+		<script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="https://cdn.bam-forms.com/2.0.0/mlb/mlb/0001529068987871-e87254cffff94f8-0001/live/form.js" type="text/javascript"></script>
+		<script src="js/form-validation.js" type="text/javascript"></script>
+		<script src="js/signup.js" type="text/javascript"></script>
+		
+
+		<!-- MLB IFRAME SCRIPT -->
+		<script src="https://www.mlbstatic.com/mlb.com/vendor/iframe-resizer/js/iframeResizer.contentWindow.min.js"></script>
+	</body>
+
+
+</html>

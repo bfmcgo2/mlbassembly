@@ -1,0 +1,22 @@
+.coming-soon {
+	height: 700px;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.coming-soon > h2 {
+	font-size: 45px;
+	letter-spacing: 4px;
+}
+
+.coming-soon > .diamond-gif {
+	width: 80px;
+}
+
+.coming-soon > .section-one-description {
+	margin-top: 0;
+	margin-bottom: 30px;
+}

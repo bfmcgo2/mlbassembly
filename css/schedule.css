@@ -1,0 +1,139 @@
+/*Parallax*/
+.schedule-parallax .bg5 {
+	z-index: 200 !important;
+}
+
+
+.schedule h3 {
+	font-family: 'MontserratLight';
+	font-weight: 100;
+}
+
+.schedule section {
+	margin: 25px 0; 
+}
+
+.schedule .schedule-small-block {
+	width: 70%;
+	padding: 0;
+	text-align: center;
+}
+
+.schedule .info-section h3 {
+	margin: 0;
+	font-size: 20px;
+}
+
+.schedule .schedule-middle.info-section {
+	padding: 0px 0px 30px;
+}
+
+.schedule .schedule-middle.bottom-section {
+	padding: 30px 0px ;
+}
+.schedule .info-section h6 {
+	font-size: 16px;
+}
+.schedule .info-section .lower-case {
+	margin: 40px 0 10px;
+}
+
+.schedule .schedule-middle {
+	padding: 40px 0px 20px 70px;
+}
+.schedule .schedule-middle .light {
+	line-height: 2.5;
+}
+
+.schedule  .schedule-middle  .lower-case  h3 {
+	text-transform: none;
+	line-height: 1.5;
+}
+
+.schedule  .schedule-middle .footnote-container {
+	margin: 10px 0;
+}
+
+.schedule  .schedule-middle .footnote {
+	font-size: 12px;
+	font-family: 'MontserratLight';
+	letter-spacing: 1.5px;
+	text-transform: none;
+}
+
+.schedule  .schedule-middle .general-admission-button {
+	margin-bottom: 20px;
+}
+
+.schedule  .schedule-middle .daily-drops-description {
+	display: block;
+	padding: 0 100px 10px;
+	font-size: 10px;
+}
+
+.schedule .schedule-bottom {
+	margin: 0px auto 125px;
+}
+
+.schedule .schedule-top {
+	margin: 125px auto 0;
+}
+
+.schedule #one {
+	margin-top: 20px;
+}
+
+.schedule h6 {
+	margin: 0;
+}
+
+.schedule .italics {
+	font-style: italic;
+	font-weight: 100;
+	font-family: 'MontserratLight';
+}
+
+.schedule .section-one-description {
+	line-height: 2;
+}
+
+.schedule .section-one-description .bottom-description{
+	text-align: left;
+}
+
+.schedule .section-one-description .bottom-description ul li{
+	list-style-type: none;
+}
+
+.schedule .section-one-description .bottom-description ul li:before{
+	content: '\2014';
+	position: absolute;
+	margin-left: -20px;
+}
+
+.back-button, a:link, a:visited {
+    text-decoration: none;
+}
+
+.schedule-bottom .all-star {
+	margin: 30px auto;
+	width: 50%;
+}
+
+.back-button > .back-arrow {
+	background: url('../assets/arrow-left.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 40px;
+	width: 100px;
+}
+
+.back-button > p {
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	font-weight: 900;
+	font-size: 12px;
+	text-decoration: none;
+}

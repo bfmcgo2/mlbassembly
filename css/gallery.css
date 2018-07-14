@@ -1,0 +1,50 @@
+.instagram-feed {
+	display: flex;
+	flex-wrap: no-wrap;
+	justify-content: center;
+}
+
+.instagram-feed > .image-grid {
+	list-style-type: none;
+	margin: 0 5px;
+}
+
+.instagram-feed > .image-grid > img {
+	width: 100%;
+}
+
+.instagram-slideshow {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(80,80,80,.8);
+	
+}
+
+.slideshow-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.slick-arrow {
+	position: absolute;
+	top: 50%;
+}
+
+.slick-next {
+	left: 0;
+	transform: translate(-50%, -50%);
+}
+
+.slick-prev {
+	right: 0;
+	transform: translate(-50%, 50%);
+}
+
+.slide-content {
+	display: flex;
+}

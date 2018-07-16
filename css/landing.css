@@ -141,7 +141,8 @@ section {
 	display: flex;
 	list-style-type: none;
 	flex-direction: row;
-	justify-content: space-between;
+	/*space-between with more dates*/
+	justify-content: center;
 	align-items: center;
 	padding: 0;
 }
@@ -167,10 +168,14 @@ section {
 }
 
 .imageGalleryFeed__img {
-	width: 50%;
-	margin: 15px 0;
+	width: 45%;
+	margin: 15px 2.5%;
 	position: relative;
 	cursor: pointer;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-bottom: 50%;
 }
 
 .imageGalleryFeed__img img {
@@ -178,7 +183,7 @@ section {
 }
 
 .imageGalleryFeed__caption {
-	width: 90%;
+	width: 100%;
 	height: 70px;
 	position: absolute;
 	bottom: 0;
@@ -202,6 +207,21 @@ section {
 	font-weight: 300;
 }
 
+.slide-img-container {
+	width: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+
+	.slide-img-container {
+		width: 350px;
+	}
+
+}
 
 .gallery-slideshow {
 	position: fixed;
@@ -258,6 +278,9 @@ section {
 	margin: 65px 0;
 }
 
+.highsnobiety .carousel-buttons {
+	padding: 35px 0;
+}
 .hsSlideContainer {
 	display: flex;
 	flex-direction: row;
@@ -272,6 +295,10 @@ section {
 
 .hsSlide__content {
 	position: relative;
+	padding-bottom: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
 }
 
 .hsSlide__content img {
@@ -282,6 +309,7 @@ section {
 	width: 100%;
 	left: 0;
 	transform: translate(0,0);
+
 }
 
 
